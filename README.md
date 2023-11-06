@@ -22,3 +22,6 @@ Definiremos `n` al comienzo del código como el número de estrellas de la galax
   - `remanente`: array de n elementos que indican el remanente en el que se convirtieron las estrellas al final de la simulación en caso de que sus `lifetime` sean mayores que su `birth_time` donde `1` indica 'Enana Blanca', `2` indica 'Estrella de Neutrones' y `3` indica 'Agujero Negro'. En el caso contrario, es decir, que sus `lifetime` sean menores que su `birth_time` no habrá remanente donde `0` indica que la estrella sigue en la secuencia principal.
   - `final_mass`: es un array de n elementos que indican la masa final de los remanentes de las estrellas. Si la estrella sigue en la secuencia principal se deja la masa inicial de la estrella. Las masas finales siguen las ecuaciones de [Kalirai 2008](https://arxiv.org/abs/0706.3894) para enanas blancas y [Raithel 2018](https://arxiv.org/abs/1712.00021) para estrellas de neutrones y agujeros negros, todas con ligeras modificaciones para modelar todo nuestro rango de masas.
 
+## Flowchart
+
+![flowchart](Flowchart.png)
