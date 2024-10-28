@@ -1,7 +1,7 @@
 # Simulación de las estrellas de una galaxia con método Monte Carlo
 Este repositorio contiene un jupyter notebook escrito en Python con el cual se puede simular la evolución de una población estelar para una galaxia arbitraria. Eligiendo la cantidad de estrellas a simular, el código proporciona diferentes gráficos para poder entender la distribución de remanentes estelares luego de transcurridos 10 [Gyr].
 
-## Como funciona
+## Cómo funciona
 Definiremos `n` al comienzo del código como el número de estrellas de la galaxia que queremos simular.
 #### Funciones
 
